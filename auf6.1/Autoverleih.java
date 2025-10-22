@@ -7,7 +7,7 @@ public class Autoverleih
       Auto auto1;
       Auto auto2;
       Auto auto3;
-      
+
       auto1 = new Auto();
       auto2 = new Auto();
       auto3 = new Auto();
@@ -24,6 +24,6 @@ public class Autoverleih
       auto3.farbe = Farbe.gelb;
       auto3.tagespreis = 23;
       
-      Darsteller.zeige(auto1, auto2, auto3);
+      Darsteller.zeige(auto1, auto2, auto3, kunde1);
    }
 }
